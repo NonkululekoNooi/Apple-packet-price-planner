@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box; 
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: grey;
+text-align: 10pc;
+
+}
+.label{
+    width:100px;
+    display: inline-block;
+}
+

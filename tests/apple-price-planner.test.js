@@ -65,3 +65,91 @@ describe("shold be able to set how many apples can be sold in one pack", functio
     })
 })
 
+describe("should be able to calculate the total cost of one apple", function(){
+       
+it("should return the price of one apple",function(){
+    
+    const  apple = apples()
+    apple.setOneApple(2.00)
+    assert.equal(2.00, apple.getOneApple())
+
+
+})
+
+})
+
+describe("should be able to calculate the total cost of 1 apple", function(){
+       
+    it("should return the price of one apple",function(){
+        
+        const  apple = apples()
+        apple.setOneApple(2.00)
+
+        apple.getApples
+        assert.equal(2.00, apple.getOneApple())
+    
+    
+    })
+})
+
+describe("should be able to calculate the total cost of  apples ", function(){
+it("should return the total cost of tw0 apples ", function(){
+
+    const  apple = apples()
+    apple.setOneApple(1.50);
+
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+   
+
+
+    assert.equal(3, apple.getTotalCost());
+    assert.equal(3, apple.getTotalOfOneApple());
+})
+
+it("should return the total cost of six apples ", function(){
+
+    const  apple = apples()
+    apple.setOneApple(1.50);
+
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+   
+
+
+    assert.equal(6.00, apple.getTotalCost());
+    assert.equal(6.00, apple.getTotalOfOneApple());
+})
+
+it("should return the total cost of four apples ", function(){
+
+    const  apple = apples()
+    apple.setOneApple(1.50);
+
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+    apple.getTotalOfApple()
+    
+   
+
+
+    assert.equal(4.50, apple.getTotalCost());
+    assert.equal(4.50, apple.getTotalOfOneApple());
+})
+
+})
+
+describe(" should be able to calculate the profit of 6 packets", function(){
+
+it('should return the profit of 6 packets of apples', function(){
+
+    
+})
+
+
+})
+
+       
+

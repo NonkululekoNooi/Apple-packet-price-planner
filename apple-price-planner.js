@@ -1,7 +1,10 @@
 function apples(){
-    var theBoxOfApple= 0
-    var theApples =0
-    var theNumberOfApples
+    var theBoxOfApple= 0;
+    var theApples =0;
+    var theNumberOfApples =0;
+    var theApple =0
+
+    var totalPerApple =0;
 
     function setBoxOfApples(boxOfApple){
         theBoxOfApple = boxOfApple
@@ -24,9 +27,28 @@ function apples(){
     function getNumberOfApples(){
         return theNumberOfApples
     }
+    function setOneApple(perApple){
+        theApple=perApple
 
+    }
+    function getOneApple(){
+        return theApple
+    }
 
+    function getTotalOfApple(){
+        totalPerApple += theApple
+    }
 
+ function getTotalOfOneApple(){
+     return totalPerApple
+ }
+ function getTotalCost(){
+    return totalPerApple 
+    }
+
+function getProfit(){
+   return totalPerApple - theBoxOfApple
+}
     return{
        setBoxOfApples,
        getBoxOfApples,
@@ -36,6 +58,13 @@ function apples(){
 
        setNumberOfApples,
        getNumberOfApples,
-       
+
+      getTotalOfApple,
+       getTotalOfOneApple,
+
+       setOneApple,
+       getOneApple,
+       getTotalCost,
+       getProfit,
     }
 }
