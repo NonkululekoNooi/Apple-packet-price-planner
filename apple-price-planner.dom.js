@@ -13,8 +13,10 @@ const  calculatingApple = apples()
 
 calculatedBtn.addEventListener('click', function(){
 
-    costs.innerHTML = calculatingApple.setBoxOfApples()
+    costs.innerHTML = calculatingApple.getBoxOfApples()
+    alert(costs)
     numbers.innerHTML = calculatedBtn.setApples()
+    alert(numbers)
     size.innerHTML= calculatedBtn.setNumberOfApples()
     gain.innerHTML=calculatedBtn.getProfit()
 
