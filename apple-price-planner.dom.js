@@ -18,7 +18,11 @@ calculatedBtn.addEventListener('click', function(){
     size.innerHTML= calculatedBtn.setNumberOfApples()
     gain.innerHTML=calculatedBtn.getProfit()
 
-  packets.innerHTML= calculatedBtn.setNumberOfApples()
+  packets.innerHTML= packetOne
+  perApple.innerHTML =OneApple
+
+  packetOne = calculatedBtn.getOneApple()
+    OneApple= calculatedBtn.getOneApple()
     
 
 
