@@ -78,19 +78,6 @@ it("should return the price of one apple",function(){
 
 })
 
-describe("should be able to calculate the total cost of 1 apple", function(){
-       
-    it("should return the price of one apple",function(){
-        
-        const  apple = apples()
-        apple.setOneApple(2.00)
-
-        apple.getApples
-        assert.equal(2.00, apple.getOneApple())
-    
-    
-    })
-})
 
 describe("should be able to calculate the total cost of  apples ", function(){
 it("should return the total cost of tw0 apples ", function(){
@@ -136,19 +123,113 @@ it("should return the total cost of four apples ", function(){
 
 
     assert.equal(4.50, apple.getTotalCost());
-    assert.equal(4.50, apple.getTotalOfOneApple());
+   // assert.equal(4.50, apple.getTotalOfOneApple());
 })
 
 })
 
 describe(" should be able to calculate the profit of 6 packets", function(){
 
-it('should return the profit of 6 packets of apples', function(){
+    it("should return the price of the box of apples ", function(){
+        const  apple = apples()
+       apple.setProfit(80)
+       apple.setNumberOfApples(4)
+       apple.setOneApple(2.00)
 
-    
-})
+        
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          
+          
 
+          
+         
+      
+          assert.equal(24.00, apple.getTotalCost());
+        
+          assert.equal(56.00, apple.getProfit());
+      })
 
+      it("should return the price of the box of apples ", function(){
+        const  apple = apples()
+       apple.setProfit(200)
+       apple.setNumberOfApples(4)
+       apple.setOneApple(5.00)
+
+        
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          
+          
+
+          
+         
+      
+          assert.equal(85.00, apple.getTotalCost());
+        
+          assert.equal(115.00, apple.getProfit());
+      })
+
+      it("should return the price of the box of apples ", function(){
+        const  apple = apples()
+       apple.setProfit(150)
+       apple.setNumberOfApples(6)
+       apple.setOneApple(3.00)
+
+        
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          apple.getTotalOfApple()
+          
+          
+
+          
+         
+      
+          assert.equal(51.00, apple.getTotalCost());
+        
+          assert.equal(99.00, apple.getProfit());
+      })
+      
 })
 
        

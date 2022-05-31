@@ -5,6 +5,7 @@ function apples(){
     var theApple =0
 
     var totalPerApple =0;
+    var theProfit =0
 
     function setBoxOfApples(boxOfApple){
         theBoxOfApple = boxOfApple
@@ -46,8 +47,12 @@ function apples(){
     return totalPerApple 
     }
 
+function setProfit(profits){
+    theProfit = profits
+  
+}
 function getProfit(){
-   return totalPerApple - theBoxOfApple
+    return theProfit - totalPerApple
 }
     return{
        setBoxOfApples,
@@ -65,6 +70,7 @@ function getProfit(){
        setOneApple,
        getOneApple,
        getTotalCost,
-       getProfit,
+       setProfit,
+       getProfit
     }
 }
